@@ -108,6 +108,12 @@ p {
   background: var(--clr-primary-light);
 }
 
+@media screen and (max-width: 576px) {
+  .cart-item {
+      grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  }
+}
+
 /*
 =============== 
 Navbar
@@ -364,10 +370,3 @@ Alert
   background: #f8d7da;
 }
 
-@media screen and (max-width: 576px) {
-  .cart-item {
-  /*grid-template-columns: 1fr 1fr 1fr;*/
-      grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
-
-  }
-}
