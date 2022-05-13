@@ -366,6 +366,8 @@ Alert
 
 @media screen and (max-width: 576px) {
   .cart-item {
-  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
+      grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+
   }
 }
