@@ -363,3 +363,9 @@ Alert
   color: #721c24;
   background: #f8d7da;
 }
+
+@media screen and (max-width: 576px) {
+  .cart-item {
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+}
